@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href = "style.css">
+    <style>
+      body{ background: linear-gradient(to right, rgb(4, 4, 150), rgba(117, 2, 117, 0.905));}
+    </style>
+    <title>atividadeapi</title>
+  </head>
+  <body>
+    <div class="parentContainer">
+      <div class="logoContainer">
+        <h1 style="text-align: center; padding-bottom: 20px;"> Rhytmo</h1>
+      </div>
+    
+    <div class="container">
+      <h1 style="text-align: center; padding: 20px;">Buscar artista</h1>
+      <div class="inputContainer">
+        <input type="text" id="artistInput" placeholder="Digite o nome do artista" />
+        <button id="searchButton">Buscar</button>
+      </div>
+    <div id="results"></div>
+    </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
